@@ -4,10 +4,20 @@
  */
 package mx.itson.tubanquito.entities;
 
+import com.google.gson.annotations.SerializedName;
+
 /**
  *
  * @author rosagabriela
  */
 public class User {
+    public String name;
+    public String adress;
+    public String city;
+    @SerializedName("taxpayer-id")
+    public String taxPayed;
+    @SerializedName("zip-code")
+    public int zipCode;
+    
     
 }
