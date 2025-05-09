@@ -19,6 +19,6 @@ public class AccountHolder {
     @SerializedName("zip-code")
     public int zipCode;
     public int teotipatlan;
-    
+    public String cagada;
     
 }
