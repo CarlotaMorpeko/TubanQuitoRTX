@@ -19,5 +19,5 @@ public class AccountHolder {
     @SerializedName("zip-code")
     public int zipCode;
 
-    
+    public double sipsap;
 }
