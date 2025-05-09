@@ -18,7 +18,6 @@ public class AccountHolder {
     public String taxPayed;
     @SerializedName("zip-code")
     public int zipCode;
-    public int teotipatlan;
-    public String cagada;
+
     
 }
