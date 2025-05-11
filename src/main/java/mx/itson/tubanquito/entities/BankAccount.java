@@ -5,19 +5,19 @@
 package mx.itson.tubanquito.entities;
 
 import com.google.gson.annotations.SerializedName;
+import java.util.List;
 
 /**
  *
- * @author rosagabriela
+ * @author Technologyland
  */
-public class AccountHolder {
+public class BankAccount {
     
-    public int code;
-    public String name;
-    public String adress;
-    public String city;
-    @SerializedName("taxpayer-id")
-    public String taxPayed;
-    @SerializedName("zip-code")
-    public int zipCode;
+    private String product;
+    @SerializedName("account-number")
+    private int AccountNumber;
+    private String currency;
+    private List<AccountHolder> accountHolder;
+    private List<Transactions> transactions;
+    
 }

@@ -12,9 +12,9 @@ import com.google.gson.annotations.SerializedName;
  */
 public enum TypeTransaction {
     @SerializedName("1")
-            CREDIT,
+    CREDIT,
     @SerializedName("2")
-            DEBIT
+    DEBIT
             
             
 }
